@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyotish</title>
+    <link rel="stylesheet" href="../../main/main.css">
+</head>
+
+<body>
+    <div id="menu"></div>
+
+    <form>
+        <div class="form-group">
+            <div class="one">
+                <label for="hours">जन्म समय घण्टा:</label>
+                <input type="number" id="birthHours" name="hours" placeholder="जन्म समय घण्टा" min="1" max="24">
+            </div>
+            <div class="one">
+                <label for="minutes">जन्म समय मिनेट:</label>
+                <input type="number" id="birthMinutes" name="minutes" placeholder="जन्म समय मिनेट" min="0" max="59">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="one">
+                <label for="minutes">सूर्यादय घण्टा:</label>
+                <input type="number" id="sunHours" name="hours" placeholder="सूर्यादय घण्टा" min="1" max="24">
+            </div>
+            <div class="one">
+                <label for="minutes">सूर्यादय मिनेट:</label>
+                <input type="number" id="sunMinutes" name="minutes" placeholder="सूर्यादय मिनेट" min="0" max="59">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="one">
+                <label for="minutes">गत नक्षत्र घटि:</label>
+                <input type="number" id="gatGhati" name="hours" placeholder="गत नक्षत्र घटि" min="1" max="24">
+            </div>
+            <div class="one">
+                <label for="minutes">गत नक्षत्र पल:</label>
+                <input type="number" id="gatPal" name="minutes" placeholder="गत नक्षत्र पल" min="0" max="59">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="one">
+                <label for="minutes">वर्तमान नक्षत्र घटि:</label>
+                <input type="number" id="bartamanGhati" name="hours" placeholder="वर्तमान नक्षत्र घटि" min="1" max="24">
+            </div>
+            <div class="one">
+                <label for="minutes">वर्तमान नक्षत्र पल:</label>
+                <input type="number" id="bartamanPal" name="minutes" placeholder="वर्तमान नक्षत्र पल" min="0" max="59">
+            </div>
+        </div>
+        <button type="button" id="saveName">Save</button>
+
+        
+    </form>
+
+    <div id="output"></div>
+
+    <div id="footer"></div>
+</body>
+<script src="../../main/main.js" type="module" defer></script>
+
+</html>

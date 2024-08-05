@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: green;
+}
+
+#menu ul{
+    background-color: #03b4f4;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 10px 0px;
+}
+
+#menu li{
+    padding: 0px 10px;
+    margin: 5px;
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    transition: all 3s ease-in-out;
+}
+
+#menu li:hover{
+    height: 20px;
+    background-color: #080000;
+}
+
+footer{
+    background-color: #070000;
+    color: #f9f9f9;
+    text-align: center;
+    margin: 4px 0px;
+    padding:5px;
+}

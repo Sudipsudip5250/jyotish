@@ -1,0 +1,15 @@
+.homebtn{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 20vw;
+    margin: 0px 5px;
+    background-color: gold;
+}
+
+.homebtn a{
+    color: black;
+    padding: 23px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}

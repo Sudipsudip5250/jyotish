@@ -1,0 +1,75 @@
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #b50505;
+    padding: 20px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 250px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.one{
+    width: 100%;
+    padding: 0px;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    width: 40%;
+    height: 100%;
+    font-size: 12px;
+    border: 1px solid #047b0e;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#saveName{
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#output{
+    margin: 10px 5px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding: 20px 10px;
+    background-color: rgb(3, 55, 3);
+    border-radius: 8px;
+    width: 80%;
+    height: 1350px;
+}
+
+.hrOne{
+    width: 70px;
+}
+.hrTwo{
+    width: 100px;
+}
+.hrThree{
+    margin-left: 10px;
+    width: 90px;
+}
+.hrFour{
+    margin-left: 15px;
+    width: 65px;
+}
+.hrFive{
+    margin-left: 15px;
+    width: 110px;
+}
