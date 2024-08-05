@@ -1,6 +1,5 @@
 export function istacal() {
-  // function calculateAndDisplay() { //remove this line after code is complete
-    // Uncomment below code after code complete
+  
     document.getElementById("saveName").addEventListener("click", function () {
 
     const a = parseInt(document.getElementById("birthHours").value, 10);
@@ -11,16 +10,6 @@ export function istacal() {
     const l = parseInt(document.getElementById("gatPal").value, 10);
     const q = parseInt(document.getElementById("bartamanGhati").value, 10);
     const r = parseInt(document.getElementById("bartamanPal").value, 10);
-
-    // let a = 10;
-    // let b = 20;
-    // let c = 6;
-    // let d = 10;
-    // let k = 30;
-    // let l = 45;
-    // let q = 25;
-    // let r = 34;
-
 
     let a_a, b_a, e, f, g, rem_g, h, i, i_a, j, j_a, j_b, j_c, j_d, j_e, j_f, m, n, o, p, o_a, p_a, o_b, p_b, o_c, p_c, p_a_a, o_a_a, s, t, s_a, t_a, s_b, t_b, s_c, s_c_c, t_c, t_c_c, u, u_a, u_b, u_c, u_d, v, v_a, v_b, u_e, u_f, v_c, v_e, w, w_a, w_b, u_g, u_h, u_i, v_g, v_h, v_i, w_g, w_h, w_i;
 
@@ -326,5 +315,5 @@ export function istacal() {
     const outputContainer = document.getElementById("output");
     outputContainer.innerHTML = ""; // Clear previous data
     outputContainer.appendChild(displayDiv);
-  }); // add ) before ; after code fully complete
+  }); 
 }
