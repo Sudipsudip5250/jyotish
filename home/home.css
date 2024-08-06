@@ -1,11 +1,13 @@
 .homebtn{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 10vh;
-    width: 15vw;
-    margin: 0px 5px;
+    width: 20dvw;
+    margin: 10px 5px;
     background-color: gold;
+    font-size:  medium;
 }
 
 .homebtn a{
