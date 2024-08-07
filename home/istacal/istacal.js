@@ -1,6 +1,4 @@
-export function istacal() {
-  
-    document.getElementById("saveName").addEventListener("click", function () {
+document.getElementById("saveName").addEventListener("click", function () {
 
     const a = parseInt(document.getElementById("birthHours").value, 10);
     const b = parseInt(document.getElementById("birthMinutes").value, 10);
@@ -311,5 +309,4 @@ export function istacal() {
     const outputContainer = document.getElementById("output");
     outputContainer.innerHTML = ""; // Clear previous data
     outputContainer.appendChild(displayDiv);
-  }); 
-}
+}); 
