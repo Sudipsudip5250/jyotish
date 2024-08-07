@@ -219,9 +219,6 @@ export function istacal() {
         v_i -= 60;
     }
 
-    // Printing in console
-    console.log("Data:" );
-
     // Create a div to display the form data
     const displayDiv = document.createElement("div");
     displayDiv.innerHTML = `
@@ -231,16 +228,16 @@ export function istacal() {
        <br>
        <p> ${a} : ${b} ---- जन्म समय<p>
        <p>-&nbsp;${c} : ${d} -------सूर्यादय</p>
-       <hr class="hrOne">
+       <hr class="hrIstacalOne">
        <p> ${e} : ${f} <p>
        <p> &nbsp;&nbsp; *5</p>
-       <hr class="hrTwo">
+       <hr class="hrIstacalTwo">
        <p> 2)${g}: &nbsp;${h} (${i}: &nbsp;${j_b}: ${j_f}</p>
        <p> &nbsp;&nbsp;-${i * 2} &nbsp;${j_c}</p>
-       <hr class="hrTwo">
+       <hr class="hrIstacalTwo">
        <p> &nbsp;&nbsp;&nbsp;&nbsp;${j_d} &nbsp;&nbsp;&nbsp;${j} </p>
        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-${j_b * 2}</p>
-       <hr class="hrTwo">
+       <hr class="hrIstacalTwo">
        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${j_e}</p>
        <p></p>
        <p> ईष्टकाल: ${i}:${j_b}:${j_f} </p>
@@ -249,13 +246,13 @@ export function istacal() {
 
        <p>&nbsp;&nbsp;&nbsp; 60: &nbsp; 00</p>
        <p>&nbsp;&nbsp; -${k}: &nbsp; ${l} ------गत नक्षत्र</p>
-       <hr class="hrThree">
+       <hr class="hrIstacalThree">
        <p>&nbsp;&nbsp;&nbsp; ${m}: &nbsp; ${n}</p>
        <p>&nbsp; +${i_a}: &nbsp; ${j_a} -----ईष्टकाल</p>
-       <hr class="hrThree">
+       <hr class="hrIstacalThree">
        <p>&nbsp;&nbsp;&nbsp; ${o_a}: &nbsp; ${p_a}</p>
        <p>&nbsp;&nbsp;&nbsp; ${o_c} &nbsp; ${p_c}</p>
-       <hr class="hrThree">
+       <hr class="hrIstacalThree">
        <p>&nbsp;&nbsp;&nbsp; ${o_b} &nbsp; ${o_a_a} &nbsp; ${p_b}</p>
        <p>&nbsp;भयात्: ${o_b}: ${p_a}</p>
        <br>
@@ -263,52 +260,51 @@ export function istacal() {
 
        <p>&nbsp;&nbsp;&nbsp; 60: &nbsp; 00</p>
        <p>&nbsp;&nbsp; -${k}: &nbsp; ${l} ------गत नक्षत्र</p>
-       <hr class="hrThree">
+       <hr class="hrIstacalThree">
        <p>&nbsp;&nbsp;&nbsp; ${m}: &nbsp; ${n}</p>
        <p>&nbsp; +${q}: &nbsp; ${r} -----वर्तमान नक्षत्र</p>
-       <hr class="hrThree">
+       <hr class="hrIstacalThree">
        <p>&nbsp;&nbsp;&nbsp; ${s_a}: &nbsp; ${t_a}</p>
        <p>&nbsp;&nbsp;&nbsp; ${s_c}${s_c_c} &nbsp; ${t_c}</p>
-       <hr class="hrThree">
+       <hr class="hrIstacalThree">
        <p>&nbsp;&nbsp;&nbsp; ${s_b} &nbsp; ${s_c_c} &nbsp; ${t_b}</p>
        <p>भभोग: ${s_b}: ${t_b}</p>
        <br>
 
 
-       <hr class="hrFour">
+       <hr class="hrIstacalFour">
        <p>&nbsp; 4) ${s_b} ( ${u}</p>
        <p>&nbsp;&nbsp;&nbsp;&nbsp; -${u_a}</p>
-       <hr class="hrFour">
+       <hr class="hrIstacalFour">
        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${u_b}</p>
        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${u_e}</p>
-       <hr class="hrFour">
+       <hr class="hrIstacalFour">
        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${u_c}</p>
        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +${t_a}</p>
-       <hr class="hrFour">
+       <hr class="hrIstacalFour">
        <p>&nbsp; 4) ${u_d} (${v}</p>
        <p>&nbsp;&nbsp;&nbsp;&nbsp; -${v_a}</p>
-       <hr class="hrFour">
+       <hr class="hrIstacalFour">
        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${v_b}</p>
        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${v_c}</p>
-       <hr class="hrFour">
+       <hr class="hrIstacalFour">
        <p>&nbsp; 4) ${v_e} (${w}</p>
        <p>&nbsp;&nbsp;&nbsp;&nbsp; -${w_a}</p>
-       <hr class="hrFour">
+       <hr class="hrIstacalFour">
        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${w_b}</p>
         <br>
 
 
        <p>&nbsp;&nbsp;&nbsp; ${u}:  ${v}:  ${w} ----------प्रथम चरण</p>
        <p>&nbsp; +${u}:  ${v}:  ${w}</p>
-       <hr class="hrFive">
+       <hr class="hrIstacalFive">
        <p>&nbsp;&nbsp;&nbsp; ${u_g}:  ${v_g}:  ${w_g} ----------द्वितीय चरण</p>
        <p>&nbsp; +${u}:  ${v}:  ${w}</p>
-       <hr class="hrFive">
+       <hr class="hrIstacalFive">
        <p>&nbsp;&nbsp;&nbsp; ${u_h}:  ${v_h}:  ${w_h} ----------तृतीय चरण</p>
        <p>&nbsp; +${u}:  ${v}:  ${w}</p>
-       <hr class="hrFive">
+       <hr class="hrIstacalFive">
        <p>&nbsp;&nbsp;&nbsp; ${u_i}:  ${v_i}:  ${w_i} ----------चतुर्थी चरण</p>
-
      `;
 
     // Append the div to the body or a specific container

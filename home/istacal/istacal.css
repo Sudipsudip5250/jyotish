@@ -55,21 +55,21 @@ input[type="number"] {
     height: 1350px;
 }
 
-.hrOne{
+.hrIstacalOne{
     width: 70px;
 }
-.hrTwo{
+.hrIstacalTwo{
     width: 100px;
 }
-.hrThree{
+.hrIstacalThree{
     margin-left: 10px;
     width: 90px;
 }
-.hrFour{
+.hrIstacalFour{
     margin-left: 15px;
     width: 65px;
 }
-.hrFive{
+.hrIstacalFive{
     margin-left: 15px;
     width: 110px;
 }
