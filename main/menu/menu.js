@@ -1,13 +1,8 @@
 export function loadmenu() {
-    const pages = ['home', 'about', 'services', 'gallery', 'contact']; // Base names of the pages
+    const pages = ['home', 'about', 'services', 'gallery', 'contact']; // names of the pages
     const baseDir = '../'; // Base directory to start from the current location
-    const maxDepth = 5; // Adjust based on how deep your folders go
+    const maxDepth = 6; // Adjust based on how deep your folders go
 
-    /**
-     * Generates an array of possible paths for the given page name.
-     * @param {string} pageName - The base name of the page (e.g., 'about').
-     * @returns {Array} - An array of possible paths where the page might be located.
-     */
     function generatePossiblePaths(pageName) {
         let paths = [];
         const extensions = ['.html'];
@@ -23,11 +18,6 @@ export function loadmenu() {
         return paths;
     }
 
-    /**
-     * Attempts to find and set the correct path for the given page link.
-     * @param {string} pageName - The base name of the page (e.g., 'about').
-     * @param {string} linkId - The ID of the link element to update.
-     */
     function findPage(pageName, linkId) {
         const possiblePaths = generatePossiblePaths(pageName);
         let found = false;
@@ -59,14 +49,15 @@ export function loadmenu() {
         </ul>
     `;
 
+    // After loading the menu, find the correct paths for each page
+    pages.forEach(page => {
+        const linkId = `${page}Link`; // Generates linkId 
+        findPage(page, linkId);
+    });
+
     // Load the footer
     document.getElementById("footer").innerHTML = `
         <footer>2024 My Website. All rights reserved.</footer>
     `;
 
-    // After loading the menu, find the correct paths for each page
-    pages.forEach(page => {
-        const linkId = `${page}Link`; // Generates linkId like 'homeLink', 'aboutLink', etc.
-        findPage(page, linkId);
-    });
 }
