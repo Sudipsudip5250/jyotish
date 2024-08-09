@@ -4,8 +4,8 @@ form {
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 500px;
-    height: 250px;
+    width: 40%;
+    height: 100%;
 }
 
 .form-group {
@@ -50,8 +50,8 @@ input[type="number"] {
     padding: 20px 10px;
     background-color: rgb(3, 55, 3);
     border-radius: 8px;
-    width: 80%;
-    height: 1350px;
+    width: 40%;
+    height: 100%;
 }
 
 .hrIstacalOne{
