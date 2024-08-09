@@ -4,7 +4,7 @@ form {
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    width: 500px;
     height: 100%;
 }
 
@@ -23,7 +23,7 @@ form {
 }
 
 input[type="number"] {
-    width: 40%;
+    width: 500px;
     height: 100%;
     font-size: 12px;
     border: 1px solid #047b0e;
@@ -50,7 +50,7 @@ input[type="number"] {
     padding: 20px 10px;
     background-color: rgb(3, 55, 3);
     border-radius: 8px;
-    width: 100%;
+    width: 40%;
     height: 100%;
 }
 
